@@ -1,88 +1,308 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="style/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet"> 
-    <title>P.O.P</title>
-</head>
-<body>
-    <header>
-        <h1><a href="index.html">Welcome to Project Of Projects</a></h1>
-    
-        
-    <article>
-    <p>Пробная страница начинающих программистов - веб -дизайнеров. Здесь будем:</p>
-        <ul>
-            <li>Учиться и помогать учиться</li>
-            <li>Размещать полезные ссылки по поводу учебы</li>
-            <li>Предлагать информацию в части инноваций в интересующих нас областях, обзоры и статьи о новых продуктах</li>
-            <li>Делиться идеями, создавать на их основе проекты</li>
-        </ul>
-        
-    </article>
-        
-    </header>
-        
-        <nav>
-            
-            <div id="navigation">
-                <ul>
-                    <li>Полезные ссылки
-                        <ul>
-                <li><a href="https://proglib.io/p/study_html_forms">Полное руководство по элементам HTML-формы</a></li>
-                 
-                <li><a href="https://www.w3schools.com/">W3schools</a></li>
-                 
-                <li><a href="https://aislam23.github.io/links/">сборник полезных ссылок, думаю нам надо будет сделать что-то похожее, если вдруг эту лавочку прикроют</a></li>
-                 
-                <li><a href="https://htmlcheatsheet.com/">шпаргалка для HTML</a></li>
-                 
-                <li><a href="https://htmlcheatsheet.com/css/">шпаргалка для CSS</a></li>
-                 
-                <li><a href="https://paletton.com">программа для выбора цвета</a></li>
-                            
-                <li><a href="https://logomakr.com/">делаем лого и не только </a></li>
-                            
-                <li><a href="https://openclipart.org/share">много бесплатных картинок для сайта</a></li>
-                
-             </ul>
-                    </li>
-                        
-                    <li>Макеты
-                    <ul>
-                <li><a href="https://symu.co/freebies/templates-4/">PSD Templates</a></li>
-                
-                <li><a href="http://psd-html-css.ru/shablony/besplatnye-psd-makety">PSD макеты</a></li>
-                
-                <li><a href="https://ru.freepik.com/
-">Графические ресурсы</a></li>
-                
-                <li><a href="https://freebiesbug.com/">Free Design Resources(много ресурсов)
-                </a></li> 
-            
-        </ul>
-                    </li>
-                    
-                    
-                    <li> Общие инструменты
-                      <ul>
-                    <li><a href="https://github.com/">GitHub</a></li>
-                    <li><a href=" https://codepen.io/">Codepen</a></li>
-                    <li><a href="https://trello.com/home">trello</a></li>
-        </ul>    
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    
-    
-    
-    
-    
-    
+<!doctype html>
+<html lang="en">
 
-    
-    
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- local css -->
+  <!-- <link rel="stylesheet" type="text/css" href="style/style.css"> -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+  <style media="screen">
+    body {font-family: 'Play', sans-serif;}
+  </style>
+  <title>Project Of Projects</title>
+</head>
+
+
+
+
+<body>
+  <div class="jumbotron jumbotron-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Project Of Projects</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse my-2 my-lg-0" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+          <!-- online code editor -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Online code editor
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://codepen.io/">Codepen</a>
+              <a class="dropdown-item" href="https://www.codeply.com/">Codeply</a>
+              <a class="dropdown-item" href="https://jsfiddle.net/">Jsfiddle</a>
+              <a class="dropdown-item" href="http://cssdeck.com/">cssdeck</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+          <!-- local code editor -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Local code editor
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://code.visualstudio.com/">Visual Studio Code</a>
+              <a class="dropdown-item" href="https://atom.io/">Atom</a>
+              <a class="dropdown-item" href="http://brackets.io/">Brackets</a>
+              <a class="dropdown-item" href="https://www.sublimetext.com/">Sublime text</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="https://notepad-plus-plus.org/">Noteapd++</a>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  <hr class="my-4">
+
+    <article>
+      <p>Пробная страница начинающих программистов - веб -дизайнеров. Здесь будем:</p>
+      <ul>
+        <li>Учиться и помогать учиться</li>
+        <li>Размещать полезные ссылки по поводу учебы</li>
+        <li>Предлагать информацию в части инноваций в интересующих нас областях, обзоры и статьи о новых продуктах</li>
+        <li>Делиться идеями, создавать на их основе проекты</li>
+      </ul>
+    </article>
+</div>
+
+
+<!-- All links to be disained -->
+
+  <nav>
+    <div id="navigation">
+      <ul>
+        <p>С чего начать:
+        <a href="https://tproger.ru/translations/things-every-software-developer-should-know/">8 концепций, которые стоит изучить начинающему программисту</a>
+</p>
+
+
+        <li> Front end:
+          <ul>
+            <li><a href="https://jquery.com/">JQuery</a></li>
+            <li><a href="https://getbootstrap.com/ ">Bootstrap</a></li>
+          </ul>
+        </li>
+
+        <li> Install git:
+          <ul>
+            <li><a href="https://git-scm.com/">Git</a></li>
+            <li><a href="https://github.com/ ">GitHub </a></li>
+          </ul>
+        </li>
+
+        <li> Online code editor
+          <ul>
+            <li><a href="https://codepen.io/">Codepen</a></li>
+            <li><a href="https://www.codeply.com/">Codeply</a></li>
+            <li><a href="https://jsfiddle.net/">Jsfiddle</a></li>
+            <li><a href="http://cssdeck.com/">cssdeck</a></li>
+          </ul>
+        </li>
+
+        <li> Code editor
+          <ul>
+            <li><a href="https://code.visualstudio.com/">Visual Studio Code</a>
+              <ul>
+                VScode Extentions:
+                <li> esbenp.prettier-vscode </li>
+                <li> formulahendry.auto-close-tag </li>
+                <li> hex-ci.stylelint-plus </li>
+                <li> dbaeumer.vscode-eslint </li>
+                <li> naumovs.color-highlight </li>
+                <li> DigitalBrainstem.javascript-ejs-support </li>
+                <li> ritwickdey.LiveServer </li>
+                <li> erikphansen.vscode-toggle-column-selection </li>
+                <li> file-icons </li>
+
+              </ul>
+            </li>
+            <li><a href="https://atom.io/">Atom</a>
+              <ul>
+                Atom Packeges:
+                <li>atom-beautify</li>
+                <li>atom-ternjs</li>
+                <li>autoclose-html</li>
+                <li>emmet</li>
+                <li>csslint</li>
+                <li>pigments</li>
+                <li>language-ejs</li>
+                <li>atom-html-preview</li>
+                <li>Sublime-Style-Column-Selection</li>
+                <li>linter-eslint</li>
+
+              </ul>
+            </li>
+            <li><a href="http://brackets.io/">Brackets</a></li>
+            <li> <a href="https://www.sublimetext.com/">Sublime text</a></li>
+            <li> <a href="https://notepad-plus-plus.org/">notepad++</a></li>
+          </ul>
+        </li>
+
+        <li> Layouts / Макеты
+          <ul>
+            <li><a href="https://symu.co/">SYMU.CO</a></li>
+            <li><a href="http://psd-html-css.ru/"> Уроки и шаблоны</a></li>
+            <li><a href="https://ru.freepik.com/">бесплатные векторы, PSD, иконки и фотографии</a></li>
+            <li> <a href="https://freebiesbug.com/">freebiesbug</a></li>
+            <li> <a href="https://avocode.com/">Avacode</a> </li>
+            <li> <a href="https://zeplin.io/">Zeplin</a> </li>
+            <li> <a href="https://studio.psdetch.com/">PSDETCH Ultimate design tool for developers</a> </li>
+            <li> <a href="https://www.markupeasy.ru/">инспектор файлов PSD для верстальщиков</a> </li>
+            <li> <a href="http://psd-html-css.ru/shablony/besplatnye-shablony-htmlcss">Бесплатные шаблоны HTML+CSS</a></li>
+            <li> <a href="https://www.figma.com/ ">Figma</a> </li>
+            <li> <a href="https://sneakpeekit.com/">нарисуй свой дизайн с нуля</a> </li>
+            <li> <a href="https://balsamiq.cloud">платная рисовалка дизайна</a> </li>
+            <li> <a href="http://tpverstak.ru/category/templates/">Макеты - Типичный верстальщик</a> </li>
+          </ul>
+        </li>
+
+        <li> Study + Cheat sheets
+          <ul>
+            <li><a href="https://proglib.io/p/study_html_forms">HTML-формы</a></li>
+            <li><a href="https://www.w3schools.com/">W3schools.com</a></li>
+            <li><a href="https://htmlcheatsheet.com/">Html CheatSheet</a></li>
+            <li><a href="https://htmlcheatsheet.com/css/">CSS CheatSheet</a></li>
+            <li><a href="https://adam-marsden.co.uk/css-cheat-sheet">CSS CheatSheet - II</a></li>
+            <li><a href="http://yoksel.github.io/flex-cheatsheet/">Flex-box/a></li>
+            <li><a href="https://html5book.ru/">HTML, CSS, JavaScript and jQuery</a></li>
+            <li><a href="https://webref.ru/">HTML, CSS, JavaScript and jQuery - II</a></li>
+            <li><a href="https://docs.emmet.io/cheat-sheet/">Emment</a></li>
+            <li><a href="https://easings.net/ru">Easings</a></li>
+            <li><a href="https://learngitbranching.js.org/">Learn Git Branch</a></li>
+            <li><a href="https://www.codewars.com/">Train code</a></li>
+            <li><a href="https://www.frontendmentor.io/">Frontend Mentor</a></li>
+          </ul>
+        </li>
+
+        <li> Work with images - convertors:
+          <ul>
+            <li><a href="https://compressor.io/">compressor</a></li>
+            <li><a href="https://tinypng.com/">tinypng</a></li>
+            <li><a href="https://www.vectorizer.io/">vectorizer</a></li>
+            <li><a href="https://www.online-convert.com/">online convertor </a> </li>
+          </ul>
+        </li>
+
+        <li> fonts:
+          <ul>
+            <li><a href="https://fonts.google.com/">Google fonts</a></li>
+            <li><a href="https://transfonter.org/">Conventor fonts</a></li>
+            <li><a href="http://www.fontov.net/">Fonts by phrase</a></li>
+          </ul>
+        </li>
+
+        <li>Check your code:
+          <ul>
+            <li><a href="https://caniuse.com/">Can I use</a></li>
+            <li><a href="http://validator.w3.org/">Validator W3</a></li>
+            <li><a href="https://developers.google.com/speed/pagespeed/insights/">Optimization page</a></li>
+            <li><a href="https://search.google.com/test/mobile-friendly">Mobile optimi</a></li>
+            <li><a href="http://www.siteliner.com/">Dublicate content on site</a></li>
+          </ul>
+        </li>
+
+        <li> Life hacks:
+          <ul>
+            <li><a href="http://howtocenterincss.com/">Center all</a></li>
+            <li><a href="https://codyhouse.co/ ">CSS + JQuery without plagins</a></li>
+
+          </ul>
+        </li>
+
+        <li> jQuery plugins:
+          <ul>
+            <li><a href="http://kenwheeler.github.io/slick/">Adaptive slider</a></li>
+            <li><a href="https://owlcarousel2.github.io/OwlCarousel2/">Slide carousel</a></li>
+            <li><a href="http://iamceege.github.io/tooltipster/">Tooltips</a></li>
+            <li><a href="https://flatpickr.js.org/examples/">Select date</a></li>
+            <li><a href="https://vodkabears.github.io/vide/">Video background</a></li>
+            <li><a href="https://coverr.co/">Cover background</a></li>
+            <li><a href="https://plugins.jquery.com/maskedinput/">Masked input</a></li>
+            <li><a href="https://github.com/peachananr/onepage-scroll">Slider scroll</a></li>
+          </ul>
+        </li>
+
+        <li> Colors picker:
+          <ul>
+            <li><a href="https://paletton.com">Colore picker</a></li>
+            <li><a href="https://colorhunt.co/ ">colore hunt</a></li>
+
+          </ul>
+        </li>
+
+        <li> Graphic and icons:
+          <ul>
+            <li><a href="https://www.flaticon.com/">Flaticon</a></li>
+            <li><a href="https://seeklogo.com/">seeklogo</a></li>
+            <li><a href="https://svgporn.com/">SVG logos</a></li>
+            <li><a href="https://toplogos.ru/">TopLogos</a></li>
+            <li><a href="https://fontawesome.com/">Font Awesome</a></li>
+            <li><a href="https://utf8-icons.com/">UTF-8 character icons</a></li>
+            <li><a href="https://iconmonstr.com/">free icons</a></li>
+            <li><a href="https://icomoon.io/">IcoMoon</a></li>
+            <li><a href="https://logomakr.com/">Logo Maker</a></li>
+            <li><a href="https://freenaturestock.com/ ">Free Nature Stock</a></li>
+            <li><a href="https://unicode-table.com/en/ ">Unicode® Character Table</a></li>
+            <li><a href="https://www.favicon.cc/ ">Favicon creator</a></li>
+            <li><a href="https://emojipedia.org/ ">emojipedia</a></li>
+          </ul>
+        </li>
+
+        <li>Animations
+          <ul>
+            <li><a href="https://daneden.github.io/animate.css/">Animate.css</a></li>
+            <li><a href="https://www.minimamente.com/project/magic/">minimamente</a></li>
+            <li><a href="http://shakrmedia.github.io/tuesday/">A quirky CSS Animation Library.</a></li>
+            <li><a href="https://giphy.com/ ">Giphy</a></li>
+          </ul>
+        </li>
+
+        <li> etc
+          <ul>
+            <li><a href="https://coverr.co/">Короткие видео для фона на сайт</a></li>
+            <li><a href="https://www.toptal.com/designers/subtlepatterns/ ">Фоны для сайта</a></li>
+            <li><a href="https://tools.yaroshenko.by/utm.php ">Генератор UTM-меток</a></li>
+            <li><a href="https://underscores.me/ ">Пустая тема для Wordpress</a></li>
+            <li><a href="https://www.minifier.org/ ">CSS и JS минификатор</a></li>
+            <li><a href="https://unminify.com ">Анминификатор для HTML, CSS, JS</a></li>
+            <li><a href="https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts">Keyboard shortcuts in Windows</a></li>
+            <li><a href="https://goalkicker.com/">Books for all web</a></li>
+            <li><a href="https://web.archive.org/">Check how was old sites</a></li>
+            <li><a href="http://linux-training.be/">Learn Linux</a></li>
+          </ul>
+        </li>
+
+
+
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+
+
 </body>
+
 </html>
