@@ -1,3 +1,17 @@
-body{
-  font-family: 'Play', sans-serif;
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Play", sans-serif;
+}
+
+li {
+  text-decoration: none;
 }
